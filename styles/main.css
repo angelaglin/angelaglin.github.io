@@ -1,6 +1,6 @@
-h1 { font-size: 300%; font-weight:normal; }
-h2 { font-size: 180%; font-weight:normal; }
-h3 { font-size: 140%; font-weight:normal; }
+h1 { font-size: 320%; font-weight:550; }
+h2 { font-size: 200%; font-weight:550; }
+h3 { font-size: 150%; font-weight:normal; }
 
 
 
@@ -76,4 +76,17 @@ nav li {
 #gt_container #right {
 	width:auto;
 	float:right;
+}
+
+
+
+
+a:link, a:visited {
+    color: #00A3FF; /* Bright lively blue */
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    color: #007ACC; /* Slightly darker blue on hover */
+    text-decoration: underline dotted grey; /* Adds dotted grey underline on hover */
 }
